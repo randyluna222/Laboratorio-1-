@@ -1,0 +1,272 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+input {
+  color:#858585;
+}
+
+.body {
+  display: flex;
+  background-color: white;
+  width: 1728px;
+  height: 1117px;
+}
+
+.head {
+  width: 120px;
+  height: 1117px;
+  float: left;
+  background-color: #FFC297;
+}
+
+#icon {
+  margin: 20px; 
+  margin-top: 32px;
+}
+
+.list1 a{
+  bottom: 30px;
+  margin: 40px;
+  margin-top: 92px;
+}
+
+#setting {
+  margin: 17px;
+  margin-top: 210px;
+}
+
+.hero {
+  border-right: 2px #858585 solid;
+  width: 342px;
+  height: 1117px;
+  float: left;
+  font-size: 30px;
+}
+
+.content {
+  width: 1063px;
+  height: 1117px;
+  float: left;    
+}
+.vector2 {
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-top: 40px;
+}
+.l-2 {
+  margin: 50px;
+}
+
+.l-2 img {
+  margin-right: 33px;
+}
+
+.li2 {
+  margin-top: 85px;
+}
+
+.info {
+  width: 1063px;
+  height: 1117px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 30px;
+  padding: 20px;
+}
+
+.change{
+  order: 2;
+  position: relative;
+  left: -235px;
+  top: 6px;
+}
+
+.info_f {
+  display: flex;
+  order: 1;
+  flex: auto;
+}
+
+.info_f h1 {
+  text-align: start;
+  font-size: 1.5625rem;
+  margin: 40px 40px 40px 70px;
+}
+.persoInfopersonalData {
+  margin: 30px;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.persoInfo label {
+  order: 1;
+  font-size: 18px;
+}
+
+.persoInfo input {
+  order: 2;
+  width: 405px;
+  height: 70px;
+  border-radius: 4px;
+
+}
+.first-name{
+  position: relative;
+  left: 0px;
+  margin-bottom: 0px;
+  bottom: 0px;
+}
+.last-name{
+  position: relative;
+  top: -30px;
+  right: 10px;
+}
+
+.last-name1{
+  left: 60px;
+  bottom: -70px;
+}
+
+.email{
+  margin-top: 50px;
+}
+
+#fir-namename{
+  position: relative;
+  left: 20px;
+}
+
+#las-name{
+  position: relative;
+  left: 482px;
+  top: -42px;
+}
+
+
+.form{
+  display: flex;
+  flex-flow: column;
+  width:80% ;
+  margin-left: 66px;
+  margin-top: -50px;
+}
+.form label{
+  text-align: start;
+  font-size: 18px;
+  padding: 7px 0px;
+}
+.form input{
+  height: 70px;
+  width: 876px;
+  border-radius: 5px;
+}
+.ubication{
+  display: inline-flex;  
+  width: 100%;
+  height: auto;
+  margin-left: 66px;
+  margin-top: 13px;
+}
+.name_city{
+  margin-right: 100px;
+}
+.name_city label{
+  font-size: 18px;
+  position: relative;
+  
+}
+.name_city select{
+  width: 405px;
+  height: 70px;
+  
+}
+.name_state label{
+  position: relative;
+  font-size: 18px;
+}
+.name_state select{
+  width: 405px;
+  height: 70px;
+}
+.endform{
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 13px;
+}
+.password label{
+  font-size: 18px;
+  margin-left: 20px;
+}
+.password input{
+  width: 450px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+
+.button{
+  border-color: #FF7008;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  font-size: 28px;
+  height: 55px;
+  padding: 11px 45px;
+  width: 180px;
+  position: absolute;
+  left: 300px;
+  bottom: -1050px ;
+}
+
+.button2{
+  border-color: #FF7008;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  font-size: 28px;
+  height: 55px;
+  padding: 11px 45px;
+  width: 180px;
+  position: absolute;
+  left: 600px;
+  bottom: -1050px ;
+}
+
+#cancel{
+  background: white;
+  color: #FF7008;
+  margin: 10px 0 10px 0;
+}
+
+#save{
+  background: #FF7008;
+  color: white;
+  margin: 10px 0px 10px 15px;
+}
+
+.footer-other{
+  width: 203px;
+  height: 1117px;
+  float:left;
+  display: flex;
+}
+
+.li3 {
+  margin-left: 28px;
+  margin-top: 40px;
+}
